@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "include": [
+    "src"
+  ],
+  "compilerOptions": {
+    "typeRoots": [
+      "node_modules/@types",
+      "node_modules/@altv"
+    ],
+    "outDir": "typings",
+    "rootDir": "src",
+    "baseUrl": "."
+  }
+}
